@@ -271,6 +271,6 @@ pnpm serve
 4，服务器部署                                                                                                                                                        
 
 5.演示视频                                                                                                                                                        
-https://www.bilibili.com/video/BV1sG411p7Z6?spm_id_from=333.999.0.0&vd_source=287f65f01263ba8009b98a3c108ed4a1
+https://www.bilibili.com/video/BV1sG411p7Z6?spm_id_from=333.999.0.0&vd_source=287f65f01263ba8009b98a3c108ed4a1                                                          
 6.aistudio项目部署                                                                                                                                                     
 https://aistudio.baidu.com/aistudio/projectdetail/4321601
