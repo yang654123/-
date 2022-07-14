@@ -237,40 +237,39 @@ F:.
 │          __init__.py                                                                                                                                                           
 │
 └─PaddleRS             //模型预测配置文件。                                                                                                                                                           
-主要功能如下：
-	登录功能
+主要功能如下：                                                                                                                                                        
+	登录功能                                                                                                                                                             
 用户输入对于用户名和密码，点击登录，验证成功后进行登录。
-	注册功能
-用户输入用户名和密码，再次确认密码验证无误后，点击提交进行注册。
-	目标提取功能
-实现对上传的对应卫星图像的指定对象的提取。
-	变化检测功能
-实现了对输入两张不同时间拍摄的相同位置（地理配准）的遥感图像建筑变化的区域的定位。
-	目标检测功能
-实现了对输入的遥感图像指定的对象的检测出图像。
-	地物分类功能
-实现了对输入的遥感图像中感兴趣的类别的提取和分类
-
+	注册功能                                                                                                                                                                                                                                                                                                                     
+用户输入用户名和密码，再次确认密码验证无误后，点击提交进行注册。                                                                                                                                                        
+	目标提取功能                                                                                                                                                             
+实现对上传的对应卫星图像的指定对象的提取。                                                                                                                                                        
+	变化检测功能                                                                                                                                                             
+实现了对输入两张不同时间拍摄的相同位置（地理配准）的遥感图像建筑变化的区域的定位。                                                                                                                                                        
+	目标检测功能                                                                                                                                                             
+实现了对输入的遥感图像指定的对象的检测出图像。                                                                                                                                                        
+	地物分类功能                                                                                                                                                                                                                                                                                                                 
+实现了对输入的遥感图像中感兴趣的类别的提取和分类                                                                                                                                                                                                                                                                                
 3.3启动部署
-后端：
+后端：                                                                                                                                                        
 首先需要将存有静态model文件的static文件从百度云下载好并部署到wsgi.py同级文件目录下里
 静态model文件链接：https://pan.baidu.com/s/1AvwG8Rp4MWlVnWp3Uod4oQ 
 提取码：epbi 
 下面是启动步骤：
-cd ./项目地址
-cd ./PaddleRS
+cd ./项目地址                                                                                                                                                         
+cd ./PaddleRS                                                                                                                                                        
 pip install -r requirements.txt
-cd ..
+cd ..                                                                                                                                                        
 pip install -r requirements.txt
-python wsgi.py
+python wsgi.py                                                                                                                                                                                                                                                                                                                     
 
-前端：
+前端：                                                                                                                                                                                                                                                                                                          
 需要配置nodejs其中node版本在14以上
-node install -g pnpm
-pnpm install 
-pnpm serve
+node install -g pnpm                                                                                                                                                        
+pnpm install                                                                                                                                                                                                                                                                                                                 
+pnpm serve                                                                                                                                                        
 
-4，服务器部署
+4，服务器部署                                                                                                                                                        
 
-5.演示视频
+5.演示视频                                                                                                                                                        
 https://www.bilibili.com/video/BV1sG411p7Z6?spm_id_from=333.999.0.0&vd_source=287f65f01263ba8009b98a3c108ed4a1
